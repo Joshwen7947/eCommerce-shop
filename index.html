@@ -15,7 +15,7 @@
 					<li>Home</li>
 					<li>Shop</li>
 					<li>About</li>
-					<li>Contact</li>
+					<li>Account</li>
 				</ul>
 			</nav>
 		</header>
@@ -38,7 +38,8 @@
 				<button id="left">
 					<img src="images/icon-angle-left.svg" alt="" />
 				</button>
-				<button id="right">
+
+				<button id="right" onclick="ShowSectionTwo()">
 					<img src="images/icon-angle-right.svg" alt="" />
 				</button>
 			</div>
@@ -59,10 +60,10 @@
 				<h3>
 					<a href="#"> Shop now <img src="images/icon-arrow.svg" alt="" /> </a>
 				</h3>
-				<button id="left">
+				<button id="left" onclick="GoBackSectionOne()">
 					<img src="images/icon-angle-left.svg" alt="" />
 				</button>
-				<button id="right">
+				<button id="right" onclick="ShowSectionThree()">
 					<img src="images/icon-angle-right.svg" alt="" />
 				</button>
 			</div>
@@ -84,7 +85,7 @@
 				<h3>
 					<a href="#"> Shop now <img src="images/icon-arrow.svg" alt="" /> </a>
 				</h3>
-				<button id="left">
+				<button id="left" onclick="GoBackSectionTwo()">
 					<img src="images/icon-angle-left.svg" alt="" />
 				</button>
 				<button id="right">
@@ -111,7 +112,10 @@
 				<img src="images/image-about-light.jpg" alt="" />
 			</div>
 		</section>
-
+		<section id="contact">
+			<div class="contact-info"></div>
+			<div class="map"></div>
+		</section>
 		<script src="index.js"></script>
 	</body>
 </html>

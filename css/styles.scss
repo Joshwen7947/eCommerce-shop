@@ -87,8 +87,8 @@ header {
 	}
 }
 #main2 {
-	visibility: hidden;
-	display: flex;
+	display: none;
+	// display: flex;
 
 	.info-container2 {
 		padding-top: 75px;
@@ -134,8 +134,8 @@ header {
 	}
 }
 #main3 {
-	visibility: hidden;
-	display: flex;
+	// visibility: visible;
+	display: none;
 	.info-container3 {
 		padding-top: 75px;
 		h1 {
@@ -171,7 +171,7 @@ header {
 			border: none;
 			padding: 50px;
 			position: relative;
-			top: 52px;
+			top: 32px;
 		}
 		button:hover {
 			cursor: pointer;
@@ -181,7 +181,7 @@ header {
 }
 #bottom {
 	display: flex;
-	background-color: blue;
+	padding-top: 50px;
 	.middle-text {
 		margin: auto;
 		text-align: left;
@@ -193,4 +193,6 @@ header {
 			color: $darkGray;
 		}
 	}
+}
+#contact {
 }

@@ -100,10 +100,7 @@ header #navbar ul li:hover {
 }
 
 #main2 {
-  visibility: hidden;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
 }
 
 #main2 .info-container2 {
@@ -157,10 +154,7 @@ header #navbar ul li:hover {
 }
 
 #main3 {
-  visibility: hidden;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
 }
 
 #main3 .info-container3 {
@@ -205,7 +199,7 @@ header #navbar ul li:hover {
   border: none;
   padding: 50px;
   position: relative;
-  top: 52px;
+  top: 32px;
 }
 
 #main3 .info-container3 button:hover {
@@ -217,7 +211,7 @@ header #navbar ul li:hover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background-color: blue;
+  padding-top: 50px;
 }
 
 #bottom .middle-text {
